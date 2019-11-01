@@ -208,7 +208,7 @@ The following devices have been tested by openHAB users with the binding. The ab
 | SmartThings Contact Sensor                     | Contact and Temperature sensor                        |
 | Telkonet EcoInsight Thermostat                 | Intelligent HVAC Thermostat                           |
 | Tradfri Bulbs                                  |                                                       |
-| Tradfri Motion Sensor                          |                                                       |
+| Tradfri Motion Sensor                          | *[<sup>[3]</sup> ](#note3)*                           |
 | Tradfri Outlet                                 |                                                       |
 | Tradfri Repeater                               |                                                       |
 | Trust Bulbs                                    | *[<sup>[1]</sup> ](#note1)*                           |
@@ -223,6 +223,9 @@ The following devices have been tested by openHAB users with the binding. The ab
 <a name="note1"></a> *Note 1: Some devices may not work with the Telegesis dongle.*
 
 <a name="note2"></a> *Note 2: The Hue Dimmer can be integrated but needs additional rule-configuration to work properly. See below for example.*
+
+<a name="note3"></a> *Note 3: Only confirmed working with zigbee2mqtt.*
+
 
 ## Discovery
 
